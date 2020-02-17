@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: black
+}
+
+body{
+   display: flex;
+    width: 98.5%;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 40%;
+}
+/*BARRA LATERAL*/
+.aside{
+    display: flex;
+    width: 55px;
+    color: white;
+
+    height: 9.5%;
+    
+}
+
+.aside ul{
+    
+    list-style: none;
+    display: none;
+   
+
+}
+.aside img{
+    height: 55px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.aside:hover ul{
+    display: block;
+    
+}
+.aside ul li{
+    
+    
+    width: 100px;
+    height: 40px;
+    display: flex;
+    background: transparent;
+    align-items: center;
+   
+}
+.aside ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    padding-left: 5px;
+    background: transparent;
+
+}
+.aside ul li a:hover{
+    text-decoration: underline;
+}
+/*LA PARTE DE L LOGO PE*/
+.second{
+    display: flexbox;
+    justify-content: center;
+    
+    width: 70%;
+    border-radius: 0% 0% 0% 0%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 150px;
+    background-color: rgba(44, 30, 39, 0.3);
+    background: rgba(44, 30, 39, 0.3);
+    color: rgba(44, 30, 39, 0.3);
+
+
+  
+}
+.logo h1{
+    background: transparent;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    font-size: 400%;
+}
+/*FIN DEL LOGO*/
+/*CANCION QUE ESTA SONANDO*/
+.reference{
+    display: flexbox;
+    background: white;
+    height:76vh;
+    background-image: url(./portadas/artworks-000621917530-1c16ga-t500x500.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*PARTE DERECHA*/
+.panel{
+    display: flexblock;
+    width: 60%;
+    height: 100vh;
+    background: transparent;
+    
+
+}/*BUSCADOR*/
+.search{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    background: transparent;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+.search input{
+    
+    background: whitesmoke;
+    height: 40%;
+    width: 30%;
+    padding-left:10px ;
+    border-radius:10px 0px 0px 10px;
+    border: none;
+    transition: 10s
+    
+}
+::placeholder{
+    
+    color: black;
+}
+
+.search button{
+    border: none;
+    height: 41.65%;
+    width: 20px;
+    background-color: white;
+    background-image: url(./items/magnifying-glass-searcher_icon-icons.com_53950.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:15px 20px;
+    border-radius: 0px 10px 10px 0px;
+    cursor:pointer;
+}
+.search input:focus{
+    background-color: white;
+}
+/*RECOMENDADOS*/
+
+.carousel{
+    margin-left: 15px;
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    overflow-y: scroll;
+    
+}
+.carousel h2{
+    padding-top: 1%;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.carousel__container{
+    display: block;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    
+    padding-top: 10px;
+    
+}
+.carousel__item{
+    display: flexbox;
+    width: 145px;
+    height: 180px;
+    border-radius: 20px;
+    background: #232324;
+    overflow: hidden;
+    margin: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center;
+}
+.image{
+    height: 69%;
+    background: transparent;
+    display: flex;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.description{
+    
+    margin-left: 10%;
+    display: flexbox;
+    background: transparent;
+}
+.description p{
+    padding-left: 10px;
+    background: transparent;
+    color:white;
+    font-family: 'Cabin', sans-serif;
+}
+.artist{
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+/*Reproductor */
+.reproductor{
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #232324;
+    width: 100%;
+    height: 10%;
+    padding-left: 20px;
+   
+    
+}
+.reference_mini{
+    display: none;
+}
+.titulos{
+    background: transparent;
+}
+.titulos h3{
+    display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    background: transparent;
+}
+.titulos h4{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: oblique;
+    color:white;
+    background: transparent;
+}
+@media only screen and (max-width: 1267px) {
+    .carousel{
+        padding-left: 0;
+        text-align: center;
+    }
+    .carousel__item{
+        margin: 1%;
+    }
+    .aside ul li{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 1232px){
+    .aside{
+        display: flex;
+        width: 55px;
+        color: white;
+        position: relative;
+        height: 9.5%;
+        
+    }
+    
+    .aside ul{
+        position: absolute;
+        list-style: none;
+        display: none;
+       bottom: -10;
+    
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .logo h1{
+        
+        font-size: 300%;
+    }
+    .carousel{
+        padding-left: 2%;
+    }
+    .reproductor{
+        height: 13%;
+    }
+    body{
+        height: 96%;
+    }
+    .aside ul li{
+        width: 40%;
+    }
+    .aside ul li a{
+       
+        font-size: 110%;
+        
+    
+    }
+}
+@media only screen and (max-width: 949px) {
+    .carousel{
+        padding-left: 0;
+        text-align: center;
+    }
+    .carousel__item{
+        margin: 3%;
+    }
+    .aside ul li{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 829px) {
+    .carousel{
+        padding-left: 0;
+        text-align: center;
+    }
+    .carousel__item{
+        margin: 3%;
+    }
+    .aside ul li{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+       max-width: 95.1%;
+    }
+    .carousel{
+        padding-left: 5%;
+    }
+    .aside ul li a{
+       
+        font-size: 100%;
+    }   
+    .logo h1{
+        
+        font-size: 250%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 746px) {
+    body{
+        display: block
+    }
+    header{
+        display: flex;
+        width: 100%;
+        height: 5%;
+        flex-direction: column-reverse;
+       
+    }
+    
+    .second{
+     width: 100%;   
+    }
+    .reference{
+        display: none;
+    }
+    .panel{
+        width: 100%;
+        position: relative;
+        z-index: 1;
+
+    }
+    .search{
+        justify-content: center;
+    }
+    .carousel{
+        margin: 0px;
+        padding-left: 0px;
+    }
+    .reproductor{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        
+        width: 100%;
+        margin: 0px;
+        padding: 0px;   
+    }
+    .reference_mini{
+        
+        margin-right:5% ;
+        display: flex;
+        width: 11%;
+        height: 100%;
+        background-image: url(./portadas/artworks-000621917530-1c16ga-t500x500.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 320px){
+    
+    
+    header{
+        display: flex;
+        height: 300px;
+    }
+    .aside{
+        
+        position: relative;
+        height: 60px;
+        width: 100%;
+    }
+    .aside img{
+        display: none;
+    }
+    .aside ul{
+        background: rgba(51, 3, 3, 0.116);
+        display: block;
+        margin-top: -35%;
+        position: absolute;
+        
+        width: 100%;
+        
+        display: block;
+    }
+    .aside ul li {
+        text-align: center;
+        
+        width: 100%;
+        justify-content: center;
+    }
+
+
+}
+
+
