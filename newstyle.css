@@ -21,7 +21,7 @@ header{
     display: flex;
     width: 55px;
     color: white;
-
+    
     height: 9.5%;
     
 }
@@ -30,7 +30,7 @@ header{
     
     list-style: none;
     display: none;
-   
+    transition: 0.3s;
 
 }
 .aside img{
@@ -349,6 +349,9 @@ header{
     .aside ul li{
         width: 40%;
     }
+    .aside ul li a{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 768px) {
     body{
@@ -365,7 +368,33 @@ header{
         
         font-size: 250%;
     }
-    
+   .aside{
+       position: fixed;
+       top: 0;
+       left: 0;
+       z-index: 3;
+       background: transparent;
+   }
+   .aside img{
+       background: transparent;
+   }
+    .aside ul{
+        background: rgba(0, 0, 0, 0.5);
+        width: 100px;
+        height: 200px;
+        
+    }
+    .aside:hover img{
+        display: none;
+    }
+    .aside ul li{
+        width: 100%;
+        height: auto;
+        margin-top:20px ;
+    }
+    .aside ul li a{
+        font-size: 110%;
+    }
 }
 
 
@@ -422,16 +451,20 @@ header{
         background-repeat: no-repeat;
         
     }
-}
-
-.titulos h3{
-    font-size: 13px;
+    
+    .titulos h3{
+        font-size: 13px;
+        
+    }
+    .titulos h4{
+        font-size: 13px;
+    }
     
 }
-.titulos h4{
-    font-size: 13px;
-}
 
+@media only screen and (max-width: 746px) {
+
+}
 
 
 @media only screen and (max-width: 320px){
@@ -469,5 +502,3 @@ header{
 
 
 }
-
-
