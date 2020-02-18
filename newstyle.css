@@ -16,6 +16,7 @@ header{
     width: 40%;
 }
 /*BARRA LATERAL*/
+
 .aside{
     display: flex;
     width: 55px;
@@ -258,6 +259,13 @@ header{
     font-style: oblique;
     color:white;
     background: transparent;
+}
+.musica{
+    
+    border-radius: 10px;
+    margin-left: 10%;
+    background: rgb(2, 2, 36);
+    width: 50%;
 }
 @media only screen and (max-width: 1267px) {
     .carousel{
