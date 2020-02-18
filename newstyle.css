@@ -262,10 +262,12 @@ header{
 }
 .musica{
     
-    border-radius: 10px;
+     border-radius: 10px;
     margin-left: 10%;
     background: rgb(2, 2, 36);
+    height: 50%;
     width: 50%;
+    
 }
 @media only screen and (max-width: 1267px) {
     .carousel{
