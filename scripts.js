@@ -195,7 +195,7 @@ var rising_hope ={
 
 rising_hope.identify.addEventListener('click',()=>{
     referencia_1.setAttribute("src", "./portadas/rising_hope.webp");
-    referencia_2.setAttribute("src", "./portadas/rising_hope.webp.jpg");
+    referencia_2.setAttribute("src", "./portadas/rising_hope.webp");
     reproductor.setAttribute("src" , "./musicauu/LiSA - Rising Hope.mp3");
     t_rep.innerHTML=rising_hope.title;
     a_rep.innerHTML=rising_hope.artist;
