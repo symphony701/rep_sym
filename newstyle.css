@@ -101,10 +101,15 @@ header{
     display: flexbox;
     background: white;
     height:76vh;
-    background-image: url(./portadas/artworks-000621917530-1c16ga-t500x500.jpg);
+    /*background-image: url(./portadas/artworks-000621917530-1c16ga-t500x500.jpg);
     background-position: center;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+
+}
+.reference img{
+    width: 100%;
+    height: 100%;
 }
 /*PARTE DERECHA*/
 .panel{
@@ -446,11 +451,12 @@ header{
         display: flex;
         width: 11%;
         height: 100%;
-        background-image: url(./portadas/artworks-000621917530-1c16ga-t500x500.jpg);
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+       
         
+    }
+    .reference_mini img{
+        width: 100%;
+        height: 100%;
     }
     
     .titulos h3{
