@@ -283,6 +283,7 @@ header{
     .description{
         margin-left: -6%;
     }
+}
 @media only screen and (max-width: 1232px){
     .aside{
         display: flex;
@@ -462,9 +463,6 @@ header{
     
 }
 
-@media only screen and (max-width: 746px) {
-
-}
 
 
 @media only screen and (max-width: 320px){
