@@ -453,7 +453,7 @@
           {
             "name": "RYUUSEI",
             "artist": "Aoi",
-            "image": "./portada/RYUUSEI.jpg",
+            "image": "./portadas/RYUUSEI.jpg",
             "audio": "./musicauu/ryuulsei_aoi.mp3",
             "id": "ryuusei_aoi",
             "gender": "Romantic",
@@ -462,7 +462,7 @@
           {
             "name": "RESISTER",
             "artist": "ASCA",
-            "image": "./portada/RESISTER.jpg",
+            "image": "./portadas/RESISTER.jpg",
             "audio": "./musicauu/resister_asca.mp3",
             "id": "resister_asca",
             "gender": "J-Rock",
@@ -471,7 +471,7 @@
           {
             "name": "RESOLUTION",
             "artist": "Hakura Tomatsu",
-            "image": "./portada/RESOLUTION.jpg",
+            "image": "./portadas/RESOLUTION.jpg",
             "audio": "./musicauu/resolution_hakura.mp3",
             "id": "resolution_hakura",
             "gender": "J-Rock",
@@ -480,7 +480,7 @@
           {
             "name": "HEY KIDS",
             "artist": "The Oral Cigarettes",
-            "image": "./portada/THE KIDS.jpg",
+            "image": "./portadas/THE KIDS.jpg",
             "audio": "./musicauu/hey_the.mp3",
             "id": "hey_the",
             "gender": "J-Rock",
