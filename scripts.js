@@ -63,7 +63,7 @@ async function load(){
 
     //llenaremos el array de numeros aleatorios con un for
 
-    for(var j=0; j<=largo-1;j++){
+    for(var j=0; j<=largo-1    ;j++){
         ale.push(j);
     }
  
