@@ -3,7 +3,7 @@
         {
             "name": "Adamas",
             "artist": "LiSa",
-            "image": "./portadas/adamas.jpeg",
+            "image": "./portadas/adamas.jpg",
             "audio": "./musicauu/adamas.mp3",
             "id": "adamas_lisa",
             "gender":"J-ROCK",
@@ -12,7 +12,7 @@
         {
             "name": "Children",
             "artist": "Bin",
-            "image": "./portadas/children-bin.jpeg",
+            "image": "./portadas/children-bin.jpg",
             "audio": "./musicauu/bin.mp3",
             "id": "children_bin",
             "gender":"J-ROCK",
@@ -21,7 +21,7 @@
         {
             "name": "Fire",
             "artist": "BTS",
-            "image": "./portadas/fire.jpeg",
+            "image": "./portadas/fire.jpg",
             "audio": "./musicauu/fire_bts.mp3",
             "id": "fire_bts",
             "gender":"K-POP",
@@ -30,7 +30,7 @@
         {
             "name": "Asphyxia",
             "artist": "Co Shu Nie",
-            "image": "./portadas/asphyxia.jpeg",
+            "image": "./portadas/asphyxia.jpg",
             "audio": "./musicauu/Cö Shu Nie - Asphyxia.mp3",
             "id": "asphyxia_coshunie",
             "gender":"J-ROCK",
@@ -39,7 +39,7 @@
         {
             "name": "Crying for rain",
             "artist": "Minami",
-            "image": "./portadas/crying_for_rain.jpeg",
+            "image": "./portadas/crying_for_rain.jpg",
             "audio": "./musicauu/crying_for_rain.mp3",
             "id": "cryingforrain_minami",
             "gender":"J-ROCK",
@@ -48,7 +48,7 @@
         {
             "name": "Daoko",
             "artist": "LiSa",
-            "image": "./portadas/daoko.jpeg",
+            "image": "./portadas/daoko.jpg",
             "audio": "./musicauu/DAOKO.mp3",
             "id": "cryingforrain_minami",
             "gender":"Romantic",
@@ -57,7 +57,7 @@
         {
             "name": "Hollowness",
             "artist": "Minami",
-            "image": "./portadas/doppelganger.jpeg",
+            "image": "./portadas/doppelganger.jpg",
             "audio": "./musicauu/hollowness_minami.mp3",
             "id": "hollowness_minami",
             "gender":"J-ROCK",
@@ -75,7 +75,7 @@
         {
             "name": "Sleeping Town",
             "artist": "Yuma",
-            "image": "./portadas/sleeping.jpeg",
+            "image": "./portadas/sleeping.jpg",
             "audio": "./musicauu/featyama-official-video.mp3",
             "id": "cryingforrain_minami",
             "gender":"Romantic",
@@ -84,7 +84,7 @@
         {
             "name": "Flamingo",
             "artist": "Mafu Mafu",
-            "image": "./portadas/flamingo.jpeg",
+            "image": "./portadas/flamingo.jpg",
             "audio": "./musicauu/flamingo.mp3",
             "id": "flamingo_mafumafu",
             "gender":"Romantic",
@@ -93,7 +93,7 @@
         {
             "name": "Unlasting",
             "artist": "LiSa",
-            "image": "./portadas/unlasting.jpeg",
+            "image": "./portadas/unlasting.jpg",
             "audio": "./musicauu/Unlasting-LiSa.mp3",
             "id": "unlasting_lisa",
             "gender":"Romantic",
@@ -102,7 +102,7 @@
         {
             "name": "Ignite",
             "artist": "Aoi",
-            "image": "./portadas/ignite.jpeg",
+            "image": "./portadas/ignite.jpg",
             "audio": "./musicauu/ignite_aoi.mp3",
             "id": "ignite_aoi",
             "gender":"J-ROCK",
@@ -111,7 +111,7 @@
         {
             "name": "Senpai",
             "artist": "Hentai Dude",
-            "image": "./portadas/senpai.jpeg",
+            "image": "./portadas/senpai.jpg",
             "audio": "./musicauu/senpai_hentai.mp3",
             "id": "senpai_hentai",
             "gender":"Rap",
