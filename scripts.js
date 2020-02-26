@@ -56,26 +56,26 @@ async function load(){
 
     //largo es la longitud del array json music
 
-    var largo= music.length;
+    var largo= (music.length)-1;
 
     //ale son numeros aleatorios 
 
-    var ale=[largo-2];
+    var ale=[];
+    
 
     //llenaremos el array de numeros aleatorios con un for
 
-    for(var j=0; j<=largo-1    ;j++){
+    for(var j=0; j<=largo;j++){
         ale.push(j);
     }
+    
+    
  
     //Mezclamos el arreglo para conseguir numeros aleatorios de todo el json
     //la verdad de que no se como funciona esa wea para obtener numeros random ordenados pero sirve alv xd
 
     ale = ale.sort(function() {return Math.random() - 0.5});
-    console.log(ale);
-    console.log(ale[0]);
-    
-    
+  
     
 
 
@@ -87,18 +87,26 @@ async function load(){
     for(var i=0; i<=largo;i++){
         //numxd es un numero que ira cambiando conforme avance el for con cada elemento del array de ale(numeros aleatorios)
         var numxd = ale[i]
-
+        var comparacion= ale[i-1]
+      
         
-        //el numero que salga en numxd se utilizara para elegir del json array de music
-        const HTMLString =musicItemTemplate(music[numxd].image,music[numxd].name,music[numxd].artist,music[numxd].id);
-        const movieElement = createTemplate(HTMLString);
-        const best =`<h2>Best Songs</h2>`;
-        const bestsongs= createTemplate(best);
-
-        carousel.append(movieElement);
-        addEventClick(movieElement,music[numxd].name,music[numxd].artist,music[numxd].image,music[numxd].audio);
-        if(i==3){
-           carousel.append(bestsongs);
+        if(numxd !=comparacion){
+        
+        
+          
+          //el numero que salga en numxd se utilizara para elegir del json array de music
+          const HTMLString =musicItemTemplate(music[numxd].image,music[numxd].name,music[numxd].artist,music[numxd].id);
+          const movieElement = createTemplate(HTMLString);
+          const best =`<h2>Best Songs</h2>`;
+          const bestsongs= createTemplate(best);
+  
+          carousel.append(movieElement);
+          addEventClick(movieElement,music[numxd].name,music[numxd].artist,music[numxd].image,music[numxd].audio);
+          if(i==3){
+             carousel.append(bestsongs);
+          }
+        }else{
+          alert("Something is wrong!!!")
         }
     }
     
