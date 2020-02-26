@@ -305,8 +305,197 @@
             "id": "omaewamou_deadman",
             "gender":"Kawaii",
             "language": "japanesse"
-        }
+        },
+        {
+          "name": "Reaching You",
+          "artist": "Tanizawa Tomofumi",
+          "image": "./portadas/REACHING YOU.jpg",
+          "audio": "./musicauu/reaching_tanizawa.mp3",
+          "id": "reaching_tanizawa",
+          "gender": "Romantic",
+          "language": "japanesse"
+        },
+        {
+          "name": "My secret",
+          "artist": "Saaya Mizuno",
+          "image": "./portadas/MY SECRET.jpg",
+          "audio": "./musicauu/secret_saaya.mp3",
+          "id": "secret_saaya",
+          "gender": "J-POP",
+          "language": "japanesse"
+        },
+        {
+          "name": "Love Good Time",
+          "artist": "Special Thanks",
+          "image": "./portadas/LOVE GOOD TIME.png",
+          "audio": "./musicauu/love_special.mp3",
+          "id": "love_special",
+          "gender": "J-POP",
+          "language": "japanesse"
+        },
+         {
+          "name": "History Maker",
+          "artist": "Dean Fujioka",
+          "image": "./portadas/history-maker.jpg",
+          "audio": "./musicauu/history_dean.mp3",
+          "id": "history_dean",
+          "gender": "Romantic",
+          "language": "japanesse"
+        },
+        {
+          "name": "Netsujou No Spectrum",
+          "artist": "Ikimono Gakari",
+          "image": "./portadas/netsujou_no_spectrum.jpg",
+          "audio": "./musicauu/netsujou_ikimono.mp3",
+          "id": "netsujou_ikimono",
+          "gender": "J-ROCK",
+          "language": "japanesse"
+        }, 
+        {
+            "name": "Seven Deadly Sins",
+            "artist": "MAN WHIT A MISSION",
+            "image": "./portadas/seven deadly sins.jpg",
+            "audio": "./musicauu/seven_man.mp3",
+            "id": "seven_deadly",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "HOWLING",
+            "artist": "Flow X Granrodeo",
+            "image": "./portadas/HOWLING.jpg",
+            "audio": "./musicauu/howling_flow.mp3",
+            "id": "howling_flow",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "AME GA FURU KARA GA DERU",
+            "artist": "Sky Peace",
+            "image": "./portadas/AME GA FURU KARA GA DERU.jpg",
+            "audio": "./musicauu/ame_ sky.mp3",
+            "id": "ame_sky",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "THE DAY",
+            "artist": "Porno Graffitti",
+            "image": "./portadas/THE DAY.jpg",
+            "audio": "./musicauu/the_graffitti.mp3",
+            "id": "the_graffitti",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "PEACE SIGN",
+            "artist": "Kenshi Yonezu",
+            "image": "./portadas/PEACE SIGN.jpg",
+            "audio": "./musicauu/peace_kenshi.mp3",
+            "id": "peace_kenshi",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "ODD FUTURE",
+            "artist": "UVERWORLD",
+            "image": "./portadas/ODD FUTURE.jpg",
+            "audio": "./musicauu/odd_uverworld.mp3",
+            "id": "odd_uverworld",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "KUCHIZUKE DIAMOND",
+            "artist": "WEAVER",
+            "image": "./portadas/KUCHIZUKE DIAMOND.jpg",
+            "audio": "./musicauu/kuchizuque_weaver.mp3",
+            "id": "kuchizuque_weaver",
+            "gender": "Romantic",
+            "language": "japanesse"
+          },
+          {
+            "name": "THIS GAME",
+            "artist": "Konomi Suzuki",
+            "image": "./portadas/THIS GAME.jpg",
+            "audio": "./musicauu/this_konomi.mp3",
+            "id": "this_konomi",
+            "gender": "J-ROCK",
+            "language": "japanesse"
+          },
+          {
+            "name": "LEMON",
+            "artist": "Kenshi Yonetsu",
+            "image": "./portadas/LEMON.jpg",
+            "audio": "./musicauu/lemon_kenshi.mp3",
+            "id": "lemon_kenshi",
+            "gender": "Romantic",
+            "language": "japanesse"
+          },
+          {
+            "name": "INNOCENCE",
+            "artist": "Aoi",
+            "image": "./portadas/INNOCENCE.jpg",
+            "audio": "./musicauu/innocence_aoi.mp3",
+            "id": "innocence_aoi",
+            "gender": "Romantic",
+            "language": "japanesse"
+          },
+          {
+            "name": "COURAGE",
+            "artist": "Hakura Tomatsu",
+            "image": "./portadas/COURAGE.jpg",
+            "audio": "./musicauu/courage_hakura.mp3",
+            "id": "courage_hakura",
+            "gender": "J-Rock",
+            "language": "japanesse"
+          },
+          {
+            "name": "RYUUSEI",
+            "artist": "Aoi",
+            "image": "./portada/RYUUSEI.jpg",
+            "audio": "./musicauu/ryuulsei_aoi.mp3",
+            "id": "ryuusei_aoi",
+            "gender": "Romantic",
+            "language": "japanesse"
+          },
+          {
+            "name": "RESISTER",
+            "artist": "ASCA",
+            "image": "./portada/RESISTER.jpg",
+            "audio": "./musicauu/resister_asca.mp3",
+            "id": "resister_asca",
+            "gender": "J-Rock",
+            "language": "japanesse"
+          },
+          {
+            "name": "RESOLUTION",
+            "artist": "Hakura Tomatsu",
+            "image": "./portada/RESOLUTION.jpg",
+            "audio": "./musicauu/resolution_hakura.mp3",
+            "id": "resolution_hakura",
+            "gender": "J-Rock",
+            "language": "japanesse"
+          },
+          {
+            "name": "HEY KIDS",
+            "artist": "The Oral Cigarettes",
+            "image": "./portada/THE KIDS.jpg",
+            "audio": "./musicauu/hey_the.mp3",
+            "id": "hey_the",
+            "gender": "J-Rock",
+            "language": "japanesse"
+          }
 
+
+
+
+
+
+
+
+
+        
         
     ]
 }
