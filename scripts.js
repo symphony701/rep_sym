@@ -1,6 +1,7 @@
 
 var reproductor= document.querySelector('#reproductor');
 reproductor.volume=0.5;
+reproductor.play();
 var a_rep=document.querySelector('#A_reproductor');
 var t_rep=document.querySelector('#T_reproductor');
 //referencia en desktop
@@ -109,6 +110,27 @@ async function load(){
           alert("Something is wrong!!!")
         }
     }
+   
+    reproductor.onended = function() {
+     /* 
+        var siguiente= music[aleatorio];
+          referencia_1.setAttribute("src", siguiente.image);
+          referencia_2.setAttribute("src", siguiente.image);
+          reproductor.setAttribute("src" , siguiente.audio);
+          t_rep.innerHTML=siguiente.name;
+          a_rep.innerHTML=siguiente.artist;*/
+          var aleatorio = Math.random() * (largo - 0) + 0;
+          aleatorio=Math.ceil(aleatorio);
+          var siguiente= music[aleatorio];
+          referencia_1.setAttribute("src", siguiente.image);
+          referencia_2.setAttribute("src", siguiente.image);
+          reproductor.setAttribute("src" , siguiente.audio);
+          t_rep.innerHTML=siguiente.name;
+          a_rep.innerHTML=siguiente.artist;
+          
+          
+         
+    };
     
 }
 load()
