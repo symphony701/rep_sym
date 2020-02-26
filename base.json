@@ -3,7 +3,7 @@
         {
             "name": "Adamas",
             "artist": "LiSa",
-            "image": "./portadas/adamas.jpg",
+            "image": "./portadas/adamas.jpeg",
             "audio": "./musicauu/adamas.mp3",
             "id": "adamas_lisa",
             "gender":"J-ROCK",
@@ -75,7 +75,7 @@
         {
             "name": "Sleeping Town",
             "artist": "Yuma",
-            "image": "./portadas/sleeping.jpg",
+            "image": "./portadas/sleeping.jpeg",
             "audio": "./musicauu/featyama-official-video.mp3",
             "id": "cryingforrain_minami",
             "gender":"Romantic",
@@ -84,7 +84,7 @@
         {
             "name": "Flamingo",
             "artist": "Mafu Mafu",
-            "image": "./portadas/flamingo.jpg",
+            "image": "./portadas/flamingo.jpeg",
             "audio": "./musicauu/flamingo.mp3",
             "id": "flamingo_mafumafu",
             "gender":"Romantic",
@@ -117,5 +117,6 @@
             "gender":"Rap",
             "language": "english"
         }
+        
     ]
 }
