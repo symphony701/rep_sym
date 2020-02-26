@@ -118,20 +118,11 @@
             "language": "english"
         },
         {
-            "name": "Senpai",
-            "artist": "Hentai Dude",
-            "image": "./portadas/senpai.jpg",
-            "audio": "./musicauu/senpai_hentai.mp3",
-            "id": "senpai_hentai",
-            "gender":"Rap",
-            "language": "english"
-        },
-        {
             
             "name": "Kanashii Ureshii",
             "artist": "Frederic",
             "image": "./portadas/Kanashii Ureshii.jpg",
-            "audio": "./musicauu/senpai_hentai.mp3",
+            "audio": "./musicauu/kanashiiureshii.mp3",
             "id": "kanashiiureshii_frederic",
             "gender":"J-POP",
             "language": "japanesse"
@@ -140,7 +131,7 @@
             "name": "Love Dramatic",
             "artist": "Masayuki Suzuki",
             "image": "./portadas/LOVE DRAMATIC.jpg",
-            "audio": "./musicauu/senpai_hentai.mp3",
+            "audio": "./musicauu/lovedramatic.mp3",
             "id": "lovedramatic_masyukisuzuki",
             "gender":"Jazz",
             "language": "japanesse"
@@ -149,7 +140,7 @@
             "name": "Ficción",
             "artist": "Sumica",
             "image": "./portadas/Ficcion.jpg",
-            "audio": "./musicauu/senpai_hentai.mp3",
+            "audio": "./musicauu/wotaku ni koi wa.mp3",
             "id": "ficcion_sumica",
             "gender":"Alternative",
             "language": "japanesse"
@@ -158,7 +149,7 @@
             "name": "Silhouette",
             "artist": "KANA-BOON",
             "image": "./portadas/Silhouette.jpg",
-            "audio": "./musicauu/senpai_hentai.mp3",
+            "audio": "./musicauu/silhuette.mp3",
             "id": "silhouette_kanaboon",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -167,7 +158,7 @@
             "name": "Lovers",
             "artist": "7!!",
             "image": "./portadas/lovers.webp",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/lovers.mp3",
             "id": "lovers_7",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -176,7 +167,7 @@
             "name": "Sparkle",
             "artist": "Radwimps",
             "image": "./portadas/SPARKLE.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/sparkle_radwimps.mp3",
             "id": "sparkle_radwimps",
             "gender":"Romantic",
             "language": "japanesse"
@@ -185,7 +176,7 @@
             "name": "Yumetourou",
             "artist": "Radwimps",
             "image": "./portadas/YUMETOUROU.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/yumetourou.mp3",
             "id": "yumetourou_radwimps",
             "gender":"Romantic",
             "language": "japanesse"
@@ -194,7 +185,7 @@
             "name": "Nandemonaya",
             "artist": "Radwimps",
             "image": "./portadas/NANDEMONAIYA.jpeg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/nandemonaiya.mp3",
             "id": "nandemonaya_radwimps",
             "gender":"Romantic",
             "language": "japanesse"
@@ -203,7 +194,7 @@
             "name": "Zen Zen Zense",
             "artist": "Radwimps",
             "image": "./portadas/ZEN ZEN ZENSE.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/zen zen zense.mp3",
             "id": "zenzenzense_radwimps",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -212,7 +203,7 @@
             "name": "Dango Daikozoku",
             "artist": "Chata",
             "image": "./portadas/DANGO.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/dango.mp3",
             "id": "dango_chata",
             "gender":"Kawaii",
             "language": "japanesse"
@@ -221,7 +212,7 @@
             "name": "Yakusoku no kizuna",
             "artist": "Idol Dance",
             "image": "./portadas/YAKUSOKU NO KIZUNA.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/yakusoku_idoldance.mp3",
             "id": "yakusokunokizuna_idoldance",
             "gender":"Kawaii",
             "language": "japanesse"
@@ -230,17 +221,17 @@
             "name": "Sekai Wa Koi Ni",
             "artist": "CHICO with Honey Works",
             "image": "./portadas/SEKAI WA KOI NI OCHITEIRU.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/y2mate.com - CHiCOwithHoneyWorks - Sekai Wa Koi Ni Ochiteiru_D52U3mPgGBo.mp3",
             "id": "sekai_chico",
             "gender":"Romantic",
             "language": "japanesse"
         },
         {
             "name": "Hikaru Nara",
-            "artist": "Berioska",
+            "artist": "Goose House",
             "image": "./portadas/Hikaru_Nara.png",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
-            "id": "hikarunara_berioska",
+            "audio": "./musicauu/hikarunara.mp3",
+            "id": "hikarunara_goosehouse",
             "gender":"J-ROCK",
             "language": "japanesse"
         },
@@ -248,7 +239,7 @@
             "name": "Again",
             "artist": "Yui",
             "image": "./portadas/AGAIN.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/again_yui.mp3",
             "id": "again_yui",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -257,7 +248,7 @@
             "name": "Crossing Field",
             "artist": "LiSa",
             "image": "./portadas/CROSSING FIELD.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/crossingfield_lisa.mp3",
             "id": "crossingfield_lisa",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -266,7 +257,7 @@
             "name": "Orange",
             "artist": "7!!",
             "image": "./portadas/ORANGE.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/orange_7.mp3",
             "id": "orange_7",
             "gender":"Romantic",
             "language": "japanesse"
@@ -274,7 +265,7 @@
             "name": "Chikatto Chika Chika",
             "artist": "Kanomi Kohara",
             "image": "./portadas/CHIKATTO CHIKA CHIKA.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/chikattochikka.mp3",
             "id": "chika_konami",
             "gender":"Kawaii",
             "language": "japanesse"
@@ -283,7 +274,7 @@
             "name": "Renai Circulation",
             "artist": "Kana Hanazawa",
             "image": "./portadas/RENAI CIRCULATION.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/renaicirculation.mp3",
             "id": "renaicirculation_kana",
             "gender":"Kawaii",
             "language": "japanesse"
@@ -301,7 +292,7 @@
             "name": "Blue Bird",
             "artist": "Ikimono Gakari",
             "image": "./portadas/BLUE BIRD.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/bluebird_ikimono.mp3",
             "id": "bluebird_ikimono",
             "gender":"J-ROCK",
             "language": "japanesse"
@@ -310,7 +301,7 @@
             "name": "Omae Wa Mou",
             "artist": "Deadman",
             "image": "./portadas/OMAE WA MOE.jpg",
-            "audio": "./musicauu/Unlasting-LiSa.mp3",
+            "audio": "./musicauu/omaewamou_deadman.mp3",
             "id": "omaewamou_deadman",
             "gender":"Kawaii",
             "language": "japanesse"
