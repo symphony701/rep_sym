@@ -1,5 +1,6 @@
 
 var reproductor= document.querySelector('#reproductor');
+reproductor.volume=0.5;
 var a_rep=document.querySelector('#A_reproductor');
 var t_rep=document.querySelector('#T_reproductor');
 //referencia en desktop
