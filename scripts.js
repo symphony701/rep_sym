@@ -42,9 +42,15 @@ async function load(){
     html.body.innerHTML = HTMLString;
     return html.body.children[0];
   }
-  function addEventClick($element,name,artist,image,audio) {
+  const music = await data.sings;
+  const lista=[];
+  function addEventClick($element,name,artist,image,audio,posicion) {
     $element.addEventListener('click', () => {
       
+      
+      
+      lista.push(posicion)
+       
       referencia_1.setAttribute("src", image);
       referencia_2.setAttribute("src", image);
       reproductor.setAttribute("src" , audio);
@@ -55,7 +61,7 @@ async function load(){
   
     //aqui guardo todo el json en una constante llamada music
 
-    const music = await data.sings;
+    
 
     //largo es la longitud del array json music
 
@@ -104,7 +110,7 @@ async function load(){
           const bestsongs= createTemplate(best);
   
           carousel.append(movieElement);
-          addEventClick(movieElement,music[numxd].name,music[numxd].artist,music[numxd].image,music[numxd].audio);
+          addEventClick(movieElement,music[numxd].name,music[numxd].artist,music[numxd].image,music[numxd].audio,numxd);
           if(i==3){
              carousel.append(bestsongs);
           }
@@ -113,14 +119,11 @@ async function load(){
         }
     }
 
-    const lista=[];
-
-
     reproductor.addEventListener('ended',function() {
       
-      var aleatorio = Math.random() * (largo - 0) + 0;
+       aleatorio = Math.random() * (largo - 0) + 0;
        aleatorio=Math.ceil(aleatorio);
-      var siguiente= music[aleatorio]
+      siguiente= music[aleatorio]
       lista.push(aleatorio)
       referencia_1.setAttribute("src", siguiente.image);
       referencia_2.setAttribute("src", siguiente.image);
@@ -128,7 +131,7 @@ async function load(){
       t_rep.innerHTML=siguiente.name;
       a_rep.innerHTML=siguiente.artist;
       
-      console.log(lista);
+      
       
 
     });
@@ -147,8 +150,14 @@ async function load(){
     
     atras.addEventListener("click",()=>{
       lista.pop();
-      var reproducir = lista[lista.length-1]
+      var largo_lista=(lista.length);
+      
+      
+      var reproducir = lista[(largo_lista)-1]
       var areproducir= music[reproducir];
+      
+      
+     
       referencia_1.setAttribute("src", areproducir.image);
       referencia_2.setAttribute("src", areproducir.image);
       reproductor.setAttribute("src" , areproducir.audio);
@@ -156,10 +165,13 @@ async function load(){
       a_rep.innerHTML=areproducir.artist;
       
       
+      
     });
 
 
-
+    
+    ;
+    
 
 
 

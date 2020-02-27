@@ -485,6 +485,42 @@
             "id": "hey_the",
             "gender": "J-Rock",
             "language": "japanesse"
+          },
+          {
+            "name": "LOVE SCENARIO",
+            "artist": "IKON",
+            "image": "./portadas/LOVE SCENARIO.jpg",
+            "audio": "./musicauu/love_ikon.mp3",
+            "id": "love_ikon",
+            "gender": "K-POP",
+            "language": "Coreano"
+          },
+          {
+            "name": "SHINE",
+            "artist": "PENTAGON",
+            "image": "./portadas/PENTAGON.jpg",
+            "audio": "./musicauu/shine_pentagon.mp3",
+            "id": "shine_pentagon",
+            "gender": "K-POP",
+            "language": "Coreano"
+          },
+          {
+            "name": "SOLO",
+            "artist": "Jennie",
+            "image": "./portadas/SOLO.jpg",
+            "audio": "./musicauu/solo_jennie.mp3",
+            "id": "solo_jennie",
+            "gender": "K-POP",
+            "language": "Coreano"
+          },
+          {
+            "name": "DDU-DU DDU-DU",
+            "artist": "BLACKPINK",
+            "image": "./portadas/DDU-DU DDU-DU.jpg",
+            "audio": "./musicauu/ddu_blackpink.mp3",
+            "id": "ddu_blackpink",
+            "gender": "K-POP",
+            "language": "Coreano"
           }
 
           
