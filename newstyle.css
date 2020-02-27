@@ -283,18 +283,18 @@ header{
 }
 .comandos{
     margin-left: 1%;
-    width: 3%;
-    height: 40%;
-    border-radius: 50%;
+    width: 10%;
+    height: 50%;
+    
     border: none;
     background: #504d4d;
     color: white;
 }
 .repexd{
     margin-left: 1%;
-    width: 3%;
-    height: 40%;
-    border-radius: 50%;
+    width: 10%;
+    height: 50%;
+    
     border: none;
     background: #504d4d;
     color: white;
