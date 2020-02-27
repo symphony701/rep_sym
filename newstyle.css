@@ -390,6 +390,10 @@ header{
     body{
        max-width: 95.1%;
     }
+    .logo img{
+        padding-left: 20%;
+
+    }
     .carousel{
         padding-left: 5%;
     }
