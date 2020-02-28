@@ -285,18 +285,18 @@ header{
     margin-left: 1%;
     width: 10%;
     height: 50%;
-    
+    font-size: 100%;
     border: none;
-    background: #504d4d;
+    background: transparent;
     color: white;
 }
 .repexd{
     margin-left: 1%;
     width: 10%;
     height: 50%;
-    
+    font-size: 100%;
     border: none;
-    background: #504d4d;
+    background: transparent;
     color: white;
     
 }
